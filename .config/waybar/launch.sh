@@ -5,4 +5,4 @@ killall -q waybar
 sleep 0.2
 
 # Launch Waybar using the direct command that is known to work
-waybar -c ~/.config/waybar/themes/dreamy/config -s ~/.config/waybar/themes/dreamy/style.css &
+waybar -c ~/.config/waybar/themes/ml4w/config -s ~/.config/waybar/themes/ml4w/style.css &
