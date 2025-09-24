@@ -43,6 +43,7 @@
     // Modules Right    
     "modules-right": [
         "custom/hypridle",
+        "custom/cliphist",
         "custom/notification",
         "clock"
     ]
