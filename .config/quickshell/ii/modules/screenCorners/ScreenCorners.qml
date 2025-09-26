@@ -137,16 +137,16 @@ Scope {
             property var activeWorkspaceWithFullscreen: workspacesForMonitor.filter(workspace => ((workspace.toplevels.values.filter(window => window.wayland?.fullscreen)[0] != undefined) && workspace.active))[0]
             property bool fullscreen: activeWorkspaceWithFullscreen != undefined
 
-            CornerPanelWindow {
-                screen: modelData
-                corner: RoundCorner.CornerEnum.TopLeft
-                fullscreen: monitorScope.fullscreen
-            }
-            CornerPanelWindow {
-                screen: modelData
-                corner: RoundCorner.CornerEnum.TopRight
-                fullscreen: monitorScope.fullscreen
-            }
+            // CornerPanelWindow {
+            //     screen: modelData
+            //     corner: RoundCorner.CornerEnum.TopLeft
+            //     fullscreen: monitorScope.fullscreen
+            // }
+            // CornerPanelWindow {
+            //     screen: modelData
+            //     corner: RoundCorner.CornerEnum.TopRight
+            //     fullscreen: monitorScope.fullscreen
+            // }
             CornerPanelWindow {
                 screen: modelData
                 corner: RoundCorner.CornerEnum.BottomLeft
