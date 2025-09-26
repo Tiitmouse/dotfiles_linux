@@ -4,11 +4,15 @@
 config=$HOME/.config/hypr
 scripts=$config/scripts
 
+# Start Quickshell
+qs -c ~/dotfiles/.config/quickshell/ii/ &
+
+# albert
+nohup albert > /dev/null 2>&1 &
+
 # notification daemon
 dunst &
 
-# waybar
-$scripts/launch_waybar &
 $scripts/tools/dynamic &
 
 # wallpaper
