@@ -5,10 +5,7 @@ config=$HOME/.config/hypr
 scripts=$config/scripts
 
 # Start Quickshell
-qs -c ~/dotfiles/.config/quickshell/ii/ &
-
-# albert
-nohup albert > /dev/null 2>&1 &
+#qs -c ~/dotfiles/.config/quickshell/caelestia/ &
 
 # notification daemon
 dunst &
