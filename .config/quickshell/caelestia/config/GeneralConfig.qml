@@ -20,11 +20,11 @@ JsonObject {
                 timeout: 600,
                 idleAction: "lock"
             },
-            // {
-            //     timeout: 300,
-            //     idleAction: "dpms off",
-            //     returnAction: "dpms on"
-            // },
+            {
+                timeout: 1790,
+                idleAction: "dpms off",
+                returnAction: "dpms on"
+            },
             {
                 timeout: 1800,
                 idleAction: ["systemctl", "suspend-then-hibernate"]
